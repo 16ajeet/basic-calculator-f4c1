@@ -13,8 +13,8 @@
 .hero-container{
     border-radius: 20px;
     background-color: white;
-    height: 50%;
-    width: 25%;
+    height: 50vh;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,8 +39,8 @@
 
 .hero-container::before{
     content: "";
-    height: 50%;
-    width: 25%;
+    height: 50vh;
+    width: 25vw;
     z-index: -1;
     position: absolute;
     background: linear-gradient( 45deg ,rgb(222, 95, 116), rgb(79, 79, 216) );
