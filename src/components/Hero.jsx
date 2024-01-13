@@ -68,7 +68,7 @@ const Hero = () => {
                     {setError !== '' && <p className='error-message'>{error}</p>}
                     {setNoError !== '' && <p className='success-message'>{noError}</p>}
                 
-                    {setResult !== '' && <p> Result : {result}</p>}
+                    {setResult !== '' && <p> {result}</p>}
                     {setErrorType !== '' && <p> {errorType}</p>}
             </div>
 
