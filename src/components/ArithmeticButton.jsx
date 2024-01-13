@@ -2,7 +2,7 @@ import React from 'react'
 
 const ArithmeticButton = ( {operation, onClick}) => {
   return (
-    <button onClick={ () => onClick(operation)}>
+    <button className='myButton' onClick={ () => onClick(operation)}>
         {operation}
     </button>
   )

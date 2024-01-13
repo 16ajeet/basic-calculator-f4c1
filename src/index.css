@@ -13,7 +13,7 @@
 .hero-container{
     border-radius: 20px;
     background-color: white;
-    height: 50vh;
+    height: 55vh;
     width: 25vw;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
 
 .hero-container::before{
     content: "";
-    height: 50vh;
+    height: 55vh;
     width: 25vw;
     z-index: -1;
     position: absolute;
@@ -59,8 +59,19 @@
 }
 
 .error-message{
+    margin-top: 5px;
     color: red;
 }
 .success-message{
     color: blue;
 }
+
+
+.myButton {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px ;
+  }

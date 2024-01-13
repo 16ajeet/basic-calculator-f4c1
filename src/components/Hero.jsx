@@ -57,7 +57,7 @@ const Hero = () => {
                 <input type="text" placeholder='Num 1' value={number1} onChange={(event) => setNumber1(event.target.value)}></input>
                 <input type="text" placeholder='Num 2' value={number2} onChange={(event) => setNumber2(event.target.value)}></input>
                 <div className="calculation-buttons">
-                    <ArithmeticButton operation="+" onClick={handleOperation} />
+                    <ArithmeticButton  operation="+" onClick={handleOperation} />
                     <ArithmeticButton operation="-" onClick={handleOperation} />
                     <ArithmeticButton operation="*" onClick={handleOperation} />
                     <ArithmeticButton operation="/" onClick={handleOperation} />
@@ -67,9 +67,9 @@ const Hero = () => {
                     {/* for displaying error message */}
                     {setError !== '' && <p className='error-message'>{error}</p>}
                     {setNoError !== '' && <p className='success-message'>{noError}</p>}
-                
-                    {setResult !== '' && <p> {result}</p>}
+
                     {setErrorType !== '' && <p> {errorType}</p>}
+                    {setResult !== '' && <p>  {result}</p>}
             </div>
 
 
