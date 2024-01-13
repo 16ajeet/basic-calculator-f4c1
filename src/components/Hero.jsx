@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import ArithmeticButton from './arithmeticButton'
+import ArithmeticButton from './ArithmeticButton'
 
 const Hero = () => {
     const [number1, setNumber1] = useState('')
